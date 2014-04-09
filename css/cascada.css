@@ -5,7 +5,7 @@
 body{
 	background-image:url(../img/creampaper_@2.png);
 	background-repeat:repeat;
-	background-size: 100%;
+	
 	background-attachment: fixed;
 	margin:0%;
 	border: 0%;
@@ -60,19 +60,19 @@ h2{
 	background-color: rgba(10,10,10,.9);
 }
 
-#contentnav.nav{
-	width: 650px;
+#nav{
+	width: 100%;
 	position: fixed;
-	top: 635px;
+	top: 710px;
 	background-color: rgba(10,10,10,.9);
-	padding: 0px;
+	padding: 0 auto;
 	z-index: 3;
 	border:solid 1px black;
 
 	
 
 }
-.nav ul li{
+#nav ul li{
  	list-style: none;
  	display: inline-block;
  	position: relative;
@@ -81,7 +81,7 @@ h2{
 	margin: 3px 15px;
 
 }
-.nav ul li a{
+#nav ul li a{
 	text-decoration: none;
 	color:#fff;
 	font-family: 'Roboto', sans-serif; 
@@ -89,10 +89,10 @@ h2{
 	font-size: 14px;
 	line-height: 3px;
 }
-.nav ul li a:hover{
+#nav ul li a:hover{
 	color: rgba(30,30,30,.5);
 }
-.activo > a{
+#activo > a{
 	color: #5F4C0B;
 }
 
@@ -105,13 +105,23 @@ h2{
 
 
 .section1{
-	width: 1000px;
-	height:600px;
-	margin: auto;
+	width: 650px;
+	height:auto;
+	margin-left: 20%;
+	margin-right:0%;
 	padding: 0px;
 	
+	
 }
-.section img{
+.section2{
+	width: 650px;
+	height:auto;
+	margin-left: 0%;
+	margin-right:20%;
+	
+	
+}
+.section1 img{
 
 	width: 100%;
 	height:500px;
@@ -120,31 +130,37 @@ h2{
 	position: relative;
 	
 }
+img{
+	max-width: 100%
+}
 
+/**primer momento**/
 .img1{
-	width: 300px;
+	
 	position:absolute;
-	left:100px; 
 	top:700px;
 	z-index:-1;
 }
 .img2{
+	
 	position:absolute;
-	left:100px; 
+	 
 	top:700px;
 	z-index:1;
 }
 .img3{
+	
 	position:absolute;
-	left:100px; 
+	
 	top:700px;
 	z-index:2;
 }
 
 .svg1{
-	max-width: 1000px;
 	position:absolute;
-	left:400px;
+	margin-left: 15%;
+	margin-right:4%;
+	padding: 0px;
 	top:800px;
 	z-index:3;
 }
@@ -161,7 +177,6 @@ h2{
 	z-index: 3;
 	position: relative;
 	top: 80px;
-	width: 100%;
 	height:600px;
 	padding: 0px;
 	z-index: 3;
@@ -169,7 +184,7 @@ h2{
 }
 
 .p{
-	width: 650px;
+	width: 640px;
 	height: 300px;
 	margin: 0px auto;
 	padding-left: 50px;
@@ -189,13 +204,7 @@ h2{
 	
 }
 
-
-
-.section2{
-	width: 500px;
-	height: auto;
-	
-}
+/**segundo momento**/
 
 .img4{
 	max-width: 500px;
@@ -220,83 +229,69 @@ h2{
 }
 
 .svg2{
-	max-width: 1000px;
 	position:absolute;
-	left:35px;
+	margin-left: 4%;
+	margin-right:15%;
+	padding: 0px;
 	top:1900px;
 	z-index:3;
+	width:1000px;
 }
 
 
-.section3{
-	width: 500px;
-	height: auto;
-	float: left;
-}
+/**tercer momento**/
+
 
 .img7{
-	max-width: 500px;
 	position:absolute;
-	left:500px;
-	top:3000px;
+	top:2700px;
 	z-index:-1;
 }
+
 .img8{
-	max-width: 500px;
 	position:absolute;
-	left:500px;
-	top:3000px;
+	top:2700px;
 	z-index:1;
 }
 .img9{
-	max-width: 500px;
 	position:absolute;
-	left:500px;
-	top:3000px;
+	top:2700px;
 	z-index:2;
 }
 
 .svg3{
-	max-width: 1000px;
+	width:90%;
 	position:absolute;
-	left:400px;
-	top:2800px;
+	left:0px;
+	top:2750px;
 	z-index:3;
+	width:1200%;
+
 }
 
-
-.section4{
-	width: 500px;
-	height: auto;
-	float: left;
-}
+/**cuarto momento**/
 
 .img10{
-	max-width: 500px;
+	
 	position:absolute;
-	left:300px; 
-	top:3800px;
+	top:3700px;
 	z-index:-1;
 }
 .img11{
-	max-width: 500px;
 	position:absolute;
-	left:300px;
-	top:3800px;
+	top:3700px;
 	z-index:1;
 }
 .img12{
-	max-width: 500px;
 	position:absolute;
-	left:300px;
-	top:3800px;
+	top:3700px;
 	z-index:2;
 }
 
 .svg4{
-	max-width: 1000px;
+	width:70%;
 	position:absolute;
-	left:300px;
-	top:3400px;
+	left:0px;
+	top:3500px;
 	z-index:3;
 }
