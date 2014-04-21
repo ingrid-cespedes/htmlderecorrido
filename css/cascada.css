@@ -266,7 +266,7 @@ img{
 }
 
 .svg3{
-	width:90%;
+	width:100%;
 	position:absolute;
 	left:0px;
 	top:2750px;
@@ -295,10 +295,10 @@ img{
 }
 
 .svg4{
-	width:70%;
+	width:100%;
 	position:absolute;
 	left:0px;
-	top:3500px;
+	top:3700px;
 	z-index:4;
 }
 /**quinto momento**/
@@ -327,4 +327,93 @@ img{
 	z-index:4;
 }
 
+/**cambio de página a primer momento de escultura**/
 
+/**primer momento**/
+.img16{
+	
+	position:absolute;
+	top:700px;
+	z-index:-1;
+}
+.img17{
+	
+	position:absolute;
+	top:700px;
+	z-index:1;
+}
+.img18{
+	
+	position:absolute;
+	top:800px;
+	z-index:2;
+}
+
+.svg6{
+	position:absolute;
+	margin-left: 15%;
+	margin-right:3%;
+	padding: 0px;
+	top:800px;
+	z-index:4;
+}
+
+/**cambio de página a primer momento de hospedería**/
+
+/**primer momento**/
+.img19{
+	
+	position:absolute;
+	top:700px;
+	z-index:-1;
+}
+.img20{
+	
+	position:absolute;
+	top:700px;
+	z-index:1;
+}
+.img21{
+	
+	position:absolute;
+	top:800px;
+	z-index:2;
+}
+
+.svg7{
+	position:absolute;
+	margin-left: 15%;
+	margin-right:3%;
+	padding: 0px;
+	top:800px;
+	z-index:4;
+}
+
+/**primer momento**/
+.img22{
+	
+	position:absolute;
+	top:1700px;
+	z-index:-1;
+}
+.img23{
+	
+	position:absolute;
+	top:1700px;
+	z-index:1;
+}
+.img24{
+	
+	position:absolute;
+	top:1800px;
+	z-index:2;
+}
+
+.svg8{
+	position:absolute;
+	margin-left: 15%;
+	margin-right:3%;
+	padding: 0px;
+	top:800px;
+	z-index:4;
+}
