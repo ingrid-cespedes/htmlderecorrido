@@ -66,7 +66,7 @@ h2{
 	top: 720px;
 	background-color: rgba(10,10,10,.9);
 	padding: 2% 0%;
-	z-index: 3;
+	z-index: 4;
 	
 
 }
@@ -83,6 +83,7 @@ h2{
  	text-align: center;
  	padding: 0px;
 	margin: 2px 5px 2px 5px;
+	z-index: 4;
 
 }
 #nav ul li a{
@@ -92,9 +93,10 @@ h2{
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 3px;
+	z-index: 4;
 }
 #nav ul li a:hover{
-	color: rgba(30,30,30,.5);
+	color: rgba(100,35,35,.9);
 }
 #activo > a{
 	color: #5F4C0B;
@@ -111,7 +113,7 @@ h2{
 .section1{
 	width: 650px;
 	height:auto;
-	margin-left: 20%;
+	margin-left: 15%;
 	margin-right:0%;
 	padding: 0px;
 	
@@ -166,7 +168,7 @@ img{
 	margin-right:3%;
 	padding: 0px;
 	top:800px;
-	z-index:3;s
+	z-index:4;
 }
 
 .parrafo{
@@ -238,7 +240,7 @@ img{
 	margin-right:15%;
 	padding: 0px;
 	top:1900px;
-	z-index:3;
+	z-index:4;
 	width:600px;
 }
 
@@ -268,7 +270,7 @@ img{
 	position:absolute;
 	left:0px;
 	top:2750px;
-	z-index:3;
+	z-index:4;
 
 
 }
@@ -297,5 +299,32 @@ img{
 	position:absolute;
 	left:0px;
 	top:3500px;
-	z-index:3;
+	z-index:4;
 }
+/**quinto momento**/
+
+.img13{
+	
+	position:absolute;
+	top:4700px;
+	z-index:-1;
+}
+.img14{
+	position:absolute;
+	top:4700px;
+	z-index:1;
+}
+.img15{
+	position:absolute;
+	top:4800px;
+	z-index:2;
+}
+.svg5{
+	width:70%;
+	position:absolute;
+	left:20px;
+	top:4800px;
+	z-index:4;
+}
+
+
