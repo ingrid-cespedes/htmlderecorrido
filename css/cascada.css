@@ -63,10 +63,10 @@ h2{
 	width: 100%;
 	height: 8%;
 	position: fixed;
-	top: 720px;
 	background-color: rgba(10,10,10,.9);
-	padding: 2% 0%;
+	padding: 3% 0%;
 	z-index: 4;
+	top: 89%;
 	
 
 }
@@ -111,19 +111,19 @@ h2{
 
 
 .section1{
+
 	width: 650px;
-	height:auto;
-	margin-left: 15%;
-	margin-right:0%;
-	padding: 0px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 0 0 5%;
 	
 	
 }
 .section2{
 	width: 650px;
-	height:auto;
-	margin-left: 0%;
-	margin-right:20%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 5 0 0%;
 	
 	
 }
@@ -149,8 +149,7 @@ img{
 }
 .img2{
 	
-	position:absolute;
-	 
+	position:absolute; 
 	top:700px;
 	z-index:1;
 }
@@ -190,22 +189,18 @@ img{
 }
 
 .p{
-	width: 640px;
 	height: 300px;
-	margin: 0px auto;
-	padding-left: 50px;
-	padding-top: 50px;
-	padding-right: 50px;
-	margin:auto;
 	z-index: 3;
 	position: relative;
-	top:-400px;
+	top: -410px;
+	width: 50%;
+	margin: 5% auto;
 }
 
 .p p{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 17px;
 	color:rgba(0,0,0,.7);
 	
 }
@@ -215,29 +210,28 @@ img{
 .img4{
 	max-width: 500px;
 	position:absolute;
-	left:35px; 
+	padding-right:2%; 
 	top:1800px;
 	z-index:-1;
 }
 .img5{
 	max-width: 500px;
 	position:absolute;
-	left:35px; 
+	padding-right:2%; 
 	top:1800px;
 	z-index:1;
 }
 .img6{
 	max-width: 500px;
 	position:absolute;
-	left:35px; 
+	padding-right:2%; 
 	top:1800px;
 	z-index:2;
 }
 
 .svg2{
 	position:absolute;
-	margin-left: 4%;
-	margin-right:15%;
+	padding-right:2%; 
 	padding: 0px;
 	top:1900px;
 	z-index:4;
@@ -327,25 +321,25 @@ img{
 	z-index:4;
 }
 
-/**cambio de página a primer momento de escultura**/
 
+/**cambio de página a primer momento de escultura**/
 /**primer momento**/
 .img16{
 	
 	position:absolute;
-	top:700px;
+	top:5600px;
 	z-index:-1;
 }
 .img17{
 	
 	position:absolute;
-	top:700px;
+	top:5600px;
 	z-index:1;
 }
 .img18{
 	
 	position:absolute;
-	top:800px;
+	top:5700px;
 	z-index:2;
 }
 
@@ -354,29 +348,29 @@ img{
 	margin-left: 15%;
 	margin-right:3%;
 	padding: 0px;
-	top:800px;
+	top:5700px;
 	z-index:4;
 }
 
-/**cambio de página a primer momento de hospedería**/
 
+/**cambio de página a primer momento de hospedería**/
 /**primer momento**/
 .img19{
 	
 	position:absolute;
-	top:700px;
+	top:6500px;
 	z-index:-1;
 }
 .img20{
 	
 	position:absolute;
-	top:700px;
+	top:6500px;
 	z-index:1;
 }
 .img21{
 	
 	position:absolute;
-	top:800px;
+	top:6500px;
 	z-index:2;
 }
 
@@ -385,7 +379,7 @@ img{
 	margin-left: 15%;
 	margin-right:3%;
 	padding: 0px;
-	top:800px;
+	top:6500px;
 	z-index:4;
 }
 
@@ -393,19 +387,19 @@ img{
 .img22{
 	
 	position:absolute;
-	top:1700px;
+	top:7500px;
 	z-index:-1;
 }
 .img23{
 	
 	position:absolute;
-	top:1700px;
+	top:7500px;
 	z-index:1;
 }
 .img24{
 	
 	position:absolute;
-	top:1800px;
+	top:7500px;
 	z-index:2;
 }
 
@@ -414,6 +408,22 @@ img{
 	margin-left: 15%;
 	margin-right:3%;
 	padding: 0px;
-	top:800px;
+	top:7500px;
 	z-index:4;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+.parrafo{
+/*border:1px solid red;*/
+
+margin:-10% auto;
+
+}
+
+.p p{
+font-size: 15px;
+ /*line-height: 20px;*/
 }
