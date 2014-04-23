@@ -8,7 +8,10 @@
  	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
  </head>
  <body>
- 	<header>
+ 	<header data-0='background-color:rgb(0,0,0)' 
+		data-200='background-color:rgb(235,235,235)'
+		style='overflow: scroll-x; position: relative'
+		>
  		<div id="heder">
  			<div class="encabezado">
 		 		<p>
@@ -20,6 +23,12 @@
 		 		<h2>Norma y Apartado por Godofredo Iommi[1985]</h2>
 	 		</div>
 	 	</div>
+
+			<div class="transicion">
+				<div data-0="background-color:rgba(0,0,0,.6);" data-400="background-color:rgba(10,10,10.0);"><p>Cementerio<br>Ciudad Abierta</p></div>
+		 	
+			</div>
+
  	</header>
  	<div id="nav">
 	 	<ul>
@@ -31,6 +40,7 @@
 	 </div>
  	<!--inicio de la primera parte del recorrido donde se ve el cementerio-->
 	<div id="esc1">	
+
 	 	<div id="content"> 
 	 		<div class="section1">
 	 			<img src="img/fondo3.png">
@@ -44,7 +54,7 @@
 						<img src="img/1plano1..png">
 					</div>
 					<div class="svg1">
-						<img src="img/texturalineaspasto2.svg" ></img>
+						<img src="svg/pasto1.svg" ></img>
 					</div>			
 			</div>
 			
@@ -67,18 +77,18 @@
 			</div>
 		
 			<div class="section2">
-					<div class="img4">
-						<img src="img/2fondo.png">
-					</div>
-					<div class="img5">
-						<img src="img/2tex.png">
-					</div>
-					<div class="img6">
-						<img src="img/2plano1..png">
-					</div>
-					<div class="svg2">
-						<img src="img/texturalineaspasto2.svg" ></img>
-					</div>			
+				<div class="img4">
+					<img src="img/2fondo.png">
+				</div>
+				<div class="img5">
+					<img src="img/2tex.png">
+				</div>
+				<div class="img6">
+					<img src="img/2plano1..png">
+				</div>
+				<div class="svg2">
+					<img src="svg/pasto1.svg" ></img>
+				</div>			
 			</div>
 	 		
 
@@ -86,8 +96,6 @@
 				<img src="img/fondo3.png">
 				<div class="p">
 					<p>Hay un viejo refrán que dice: <em>“la excepción confirma la regla”.</em> ¿Qué quiere decir ésto? ¿Cómo es posible que la excepción confirme la regla? Una de dos, o bien quiere decir que la excepción por ser excepción y salirse de la regla no tiene vigencia o viceversa. Es decir, que la regla se hace transparente por la excepción.<br>
-
-					En términos más vulgares aunque incorrectos “la excepción confirma la regla”, quiere decir que la excepción es mala y la regla es buena. O bien, y tal como trabaja la medicina, es el caso patológico el que permite estudiar lo que se llama la salud, puesto que no hay un canon de la salud, como no lo hay tampoco de la locura o de la cordura. Sólo a través de lo que se llama patología, es decir, los casos en que la situación se hace irresistible, se puede ver lo otro.
 					</p>
 				</div>
 			</div>	
@@ -104,16 +112,13 @@
 					<img src="img/3plano1..png">
 				</div>
 				<div class="svg3">
-					<img src="img/texturalineasarbol2.svg"></img>
+					<img src="svg/arbol1.svg"></img>
 				</div>
 			</div>
 			<div class="parrafo">
 				<img src="img/fondo3.png">
 				<div class="p">
-					<p>Entonces, “la excepción confirma la regla” se suele entender de un modo o de otro. La proposición de Loewenstein que dice: “El exceso de lo arbitrario dicta lo arbitrario o dice de la norma”, es más rigurosa.<br>
-
-					Se trata de la “norma”, de lo “normado”, es decir, lo que constituye una construcción, otros le llaman “orden”, cuyo fundamento real, es arbitrario. Es decir, no es un orden el que genera un orden sino que es una construcción a partir de algo que no lo era. Este “no lo era” (algunos le llaman “naturaleza” por decir confuso, suma de posibilidades o caos) es una construcción a partir de lo que no lo era y precisamente cuando lo que no es construcción se manifiesta en grado excesivo, “lo exceso”, el exceso de lo arbitrario, es cuando más se hace transparente la necesidad de la construcción.
-						</p>
+					<p>Entonces, “la excepción confirma la regla” se suele entender de un modo o de otro. La proposición de Loewenstein que dice: “El exceso de lo arbitrario dicta lo arbitrario o dice de la norma”, es más rigurosa.<br></p>
 				</div>
 			</div>
 
@@ -126,10 +131,10 @@
 					<img src="img/4tex.png">
 				</div>
 				<div class="img12">
-					<img src="img/4plano1..png">
+					<img src="img/4plano1.png">
 				</div>
 				<div class="svg4">
-					<img src="img/texturalineasarbol2.svg"></img>
+					<img src="svg/arbol2.svg"></img>
 				</div>
 
 			</div>
@@ -154,26 +159,32 @@
 					<img src="img/7plano1.png">
 				</div>
 				<div class="svg5">
-					<img src="img/texturalineasarbol3.svg"></img>
+					<img src="svg/arbol2.svg"></img>
 				</div>
+			</div>
 
-			</div>
-			<div class="parrafo">
-				<img src="img/fondo3.png">
-				<div class="p">
-					<p></p>
+			<div class="transicion">
+				<div 
+				data-5100="background-color:rgba(10,10,10,.0);"
+				 data-5200="background-color:rgba(0,0,0.3);"
+				 data-5250="background-color:rgba(10,10,10,.1);"
+				 data-5300="background-color:rgba(10,10,10,.0);"
+				 ><p>Escultura<br>Adagio Cumplido</p>
 				</div>
 			</div>
+		
  		</div>
  	</div><!--esc1-->
  							
  	<!--fin de la primera parte del recorrido donde se ve el cementerio-->
 
  	<!--inicio de la segunda parte del recorrido donde se ve la escultura-->
+ 	
  	<div id="esc2">	
+
 	 	<div id="content"> 
+
 	 		<div class="section1">
-	 			<img src="img/fondo3.png">
 				<div class="img16">
 					<img src="img/6fondo.png">
 				</div>
@@ -184,7 +195,7 @@
 					<img src="img/6plano1.png">
 				</div>
 				<div class="svg6">
-					<img src="img/texturalineasarbol3.svg" ></img>
+					<img src="svg/arbolypasto1.svg" ></img>
 				</div>	
 
 			</div>
@@ -199,16 +210,27 @@
 						y vas a ver cómo este puente no une con aquella orilla ¡anda, anda ver!– <br> 
 					</p>
 				</div>
+				<div class="transicion">
+					<div 
+					data-6300="background-color:rgba(10,10,10,.0);"
+					 data-6400="background-color:rgba(0,0,0.3);"
+					 data-6450="background-color:rgba(10,10,10,.1);"
+					 data-6500="background-color:rgba(10,10,10,.0);"
+					 ><p>Hospedería del<br>Megaterio</p>
+					</div>
+				</div>
 			</div>
 		</div>	
 	</div>
 	 <!--fin de la primera parte del recorrido donde se ve el cementerio-->
  	
- 	<!--inicio de la tercera parte del recorrido donde se ve la hospederia-->
+ 	<!--inicio de la cuarta parte del recorrido donde se ve el vestal-->
  	<div id="esc3">	
  		 <div id="content"> 
+ 		 	
+		 	
+	 		</div>
  			<div class="section1">
- 				<img src="img/fondo3.png">
 				<div class="img19">
 					<img src="img/8fondo.png">
 				</div>
@@ -219,7 +241,7 @@
 					<img src="img/8plano1.png">
 				</div>
 				<div class="svg7">
-					<img src="img/texturalineaspasto2.svg" ></img>
+					<img src="svg/texturalineaspasto2.svg" ></img>
 				</div>	
 
 			</div>
@@ -237,7 +259,6 @@
 			</div>
 
 			<div class="section2">
- 				<img src="img/fondo3.png">
 				<div class="img22">
 					<img src="img/9fondo.png">
 				</div>
@@ -248,7 +269,7 @@
 					<img src="img/9plano1.png">
 				</div>
 				<div class="svg8">
-					<img src="img/texturalineaspasto2.svg" ></img>
+					<img src="svg/pasto1.svg" ></img>
 				</div>	
 
 			</div>
@@ -264,6 +285,15 @@
 					</p>
 				</div>
 			</div>
+			<div class="transicion">
+					<div 
+					data-5000="background-color:rgba(10,10,10,.0);"
+					 data-5400="background-color:rgba(0,0,0.3);"
+					 data-5450="background-color:rgba(10,10,10,.1);"
+					 data-5500="background-color:rgba(10,10,10,.0);"
+					 ><p>VEstal del<br>Jardín</p>
+					</div>
+				</div>
 
 		</div>
  	</div>
@@ -273,14 +303,69 @@
  	<div id="esc4">	
  		<div id="content"> 
  			<div class="section1">
- 			</div>
+				<div class="img25">
+					<img src="img/10fondo.png">
+				</div>
+				<div class="img26">
+					<img src="img/10tex.png">
+				</div>
+				<div class="img27">
+					<img src="img/10plano1.png">
+				</div>
+				<div class="svg9">
+					<img src="svg/pasto1.svg" ></img>
+				</div>	
+			</div>
  			<div class="parrafo">
+ 				<img src="img/fondo3.png">
+				<div class="p">
+					<p>— ¿No entiendo por qué a este puente se le diga que es una estatua?–<br> 
+					—¡Ah! eso te lo puedo explicar, este puente estaba allá y lo trajeron aquí. 
+					Ahora tú sabes lo que es un puente ¿no?– <br> 
+					— Sí– <br> 
+					— Une una orilla con otra orilla, por eso es un puente, pero anda hasta allá, 
+					y vas a ver cómo este puente no une con aquella orilla ¡anda, anda ver!– <br> 
+					</p>
+				</div>
  			</div>
+
+ 			<div class="section2">
+				<div class="img28">
+					<img src="img/11fondo.png">
+				</div>
+				<div class="img29">
+					<img src="img/11tex.png">
+				</div>
+				<div class="img30">
+					<img src="img/11plano1.png">
+				</div>
+				<div class="svg10">
+					<img src="svg/pasto1.svg" ></img>
+				</div>	
+			</div>
+ 			<div class="parrafo">
+ 				<img src="img/fondo3.png">
+				<div class="p">
+					<p>— ¿No entiendo por qué a este puente se le diga que es una estatua?–<br> 
+					—¡Ah! eso te lo puedo explicar, este puente estaba allá y lo trajeron aquí. 
+					Ahora tú sabes lo que es un puente ¿no?– <br> 
+					— Sí– <br> 
+					— Une una orilla con otra orilla, por eso es un puente, pero anda hasta allá, 
+					y vas a ver cómo este puente no une con aquella orilla ¡anda, anda ver!– <br> 
+					</p>
+				</div>
  		</div><!--cont-->
  	</div><!--esc4-->
  	<!--fin de la cuarta parte del recorrido donde se ve la hospedería-->
 
  	<footer>	
  	</footer>
+
+
+ 	<script type="text/javascript" src="js/skrollr.min.js"></script>
+	<script type="text/javascript">
+    var s = skrollr.init();
+    </script>
+
  </body>
 </html>

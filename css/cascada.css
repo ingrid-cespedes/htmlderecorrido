@@ -16,9 +16,9 @@ body{
 }
 .encabezado{
 	width: 650px;
-	height: 400px;
-	margin: 140px auto;
-	padding: 0px 0px;
+	height: 500px;
+	margin: 0px auto;
+	padding: 140px 0px;
 
 }
 
@@ -96,7 +96,7 @@ h2{
 	z-index: 4;
 }
 #nav ul li a:hover{
-	color: rgba(100,35,35,.9);
+	color: #A4C18C;
 }
 #activo > a{
 	color: #5F4C0B;
@@ -115,7 +115,7 @@ h2{
 	width: 650px;
 	height: auto;
 	margin: 0 auto;
-	padding: 0 0 0 5%;
+	padding: 15 0 15 5%;
 	
 	
 }
@@ -123,7 +123,7 @@ h2{
 	width: 650px;
 	height: auto;
 	margin: 0 auto;
-	padding: 0 5 0 0%;
+	padding: 15 5 0 15%;
 	
 	
 }
@@ -139,39 +139,49 @@ h2{
 img{
 	max-width: 100%
 }
+.transicion{
+	width: 100%;
+	height:40%;
+}
+.transicion p{
+	color:#DFE4DF;
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 20px;
+	text-transform: uppercase;
+	z-index: 4;
+	padding-left: 20%;
+	line-height: 180%;
+}
 
 /**primer momento**/
 .img1{
 	
 	position:absolute;
-	top:700px;
+	top:780px;
 	z-index:-1;
 }
 .img2{
 	
 	position:absolute; 
-	top:700px;
+	top:780px;
 	z-index:1;
 }
 .img3{
-	
 	position:absolute;
-	
-	top:700px;
+	top:780px;
 	z-index:2;
 }
 
 .svg1{
 	position:absolute;
-	margin-left: 15%;
-	margin-right:3%;
+	margin-left: 18%;
+	margin-right: 3%;
 	padding: 0px;
-	top:800px;
-	z-index:4;
-}
-
-.parrafo{
-	width: 100%;
+	top: 950px;
+	z-index: 4;
+	max-width: 50%;
 }
 
 
@@ -179,32 +189,29 @@ img{
 	width: 100%;
 	height:500px;
 	margin: 0px auto;
-	z-index: 3;
-	position: relative;
-	top: 80px;
+	z-index: -3;
 	height:600px;
-	padding: 0px;
 	z-index: 3;
 	
 }
 
-.p{
-	height: 300px;
-	z-index: 3;
-	position: relative;
-	top: -410px;
-	width: 50%;
-	margin: 5% auto;
+.p {
+    width: 50%;
+    margin: 5% auto;
+    height: 300px;
+    z-index: 3;
+    position: relative;
+    top: -600px;
+    padding: 5% 5%;
 }
-
 
 .p p{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 17px;
 	color:rgba(0,0,0,.7);
-	
 }
+
 
 /**segundo momento**/
 
@@ -232,31 +239,31 @@ img{
 
 .svg2{
 	position:absolute;
-	padding-right:2%; 
+	margin-left: 3%;
+	margin-right: 18%;
 	padding: 0px;
-	top:1900px;
-	z-index:4;
-	width:600px;
+	top: 2110px;
+	z-index: 4;
+	max-width: 50%;
 }
-
 
 /**tercer momento**/
 
 
 .img7{
 	position:absolute;
-	top:2700px;
+	top:2900px;
 	z-index:-1;
 }
 
 .img8{
 	position:absolute;
-	top:2700px;
+	top:2900px;
 	z-index:1;
 }
 .img9{
 	position:absolute;
-	top:2700px;
+	top:2900px;
 	z-index:2;
 }
 
@@ -264,10 +271,8 @@ img{
 	width:100%;
 	position:absolute;
 	left:0px;
-	top:2750px;
+	top:2900px;
 	z-index:4;
-
-
 }
 
 /**cuarto momento**/
@@ -275,17 +280,17 @@ img{
 .img10{
 	
 	position:absolute;
-	top:3700px;
+	top:4200px;
 	z-index:-1;
 }
 .img11{
 	position:absolute;
-	top:3700px;
+	top:4200px;
 	z-index:1;
 }
 .img12{
 	position:absolute;
-	top:3700px;
+	top:4200px;
 	z-index:2;
 }
 
@@ -293,7 +298,7 @@ img{
 	width:100%;
 	position:absolute;
 	left:0px;
-	top:3700px;
+	top:4000px;
 	z-index:4;
 }
 /**quinto momento**/
@@ -301,24 +306,24 @@ img{
 .img13{
 	
 	position:absolute;
-	top:4700px;
+	top:5300px;
 	z-index:-1;
 }
 .img14{
 	position:absolute;
-	top:4700px;
+	top:5300px;
 	z-index:1;
 }
 .img15{
 	position:absolute;
-	top:4800px;
+	top:5400px;
 	z-index:2;
 }
 .svg5{
-	width:70%;
+	width:100%;
 	position:absolute;
 	left:20px;
-	top:4800px;
+	top:5400px;
 	z-index:4;
 }
 
@@ -328,19 +333,19 @@ img{
 .img16{
 	
 	position:absolute;
-	top:5600px;
+	top:6400px;
 	z-index:-1;
 }
 .img17{
 	
 	position:absolute;
-	top:5600px;
+	top:6400px;
 	z-index:1;
 }
 .img18{
 	
 	position:absolute;
-	top:5700px;
+	top:6400px;
 	z-index:2;
 }
 
@@ -349,7 +354,7 @@ img{
 	margin-left: 15%;
 	margin-right:3%;
 	padding: 0px;
-	top:5700px;
+	top:6400px;
 	z-index:4;
 }
 
@@ -359,19 +364,19 @@ img{
 .img19{
 	
 	position:absolute;
-	top:6500px;
+	top:7500px;
 	z-index:-1;
 }
 .img20{
 	
 	position:absolute;
-	top:6500px;
+	top:7500px;
 	z-index:1;
 }
 .img21{
 	
 	position:absolute;
-	top:6500px;
+	top:7500px;
 	z-index:2;
 }
 
@@ -384,37 +389,93 @@ img{
 	z-index:4;
 }
 
-/**primer momento**/
+/**segundo momento**/
 .img22{
 	
 	position:absolute;
-	top:7500px;
+	top:8600px;
 	z-index:-1;
 }
 .img23{
 	
 	position:absolute;
-	top:7500px;
+	top:8500px;
 	z-index:1;
 }
 .img24{
 	
 	position:absolute;
-	top:7500px;
+	top:8600px;
 	z-index:2;
 }
 
 .svg8{
+	position: absolute;
+	margin-left: 3%;
+	padding: 0px;
+	top: 8700px;
+	z-index: 4;
+	margin-right: 0%;
+}
+
+
+/**cambio de página a primer momento de hospedería**/
+/**primer momento**/
+.img25{
+	position:absolute;
+	top:9800px;
+	z-index:-1;
+}
+.img26{
+	
+	position:absolute;
+	top:9700px;
+	z-index:1;
+}
+.img27{
+	
+	position:absolute;
+	top:9970px;
+	z-index:2;
+}
+
+.svg9{
 	position:absolute;
 	margin-left: 15%;
 	margin-right:3%;
 	padding: 0px;
-	top:7500px;
+	top:10050px;
 	z-index:4;
 }
 
+/**segundo momento**/
 
+.img28{
+	position:absolute;
+	top:10800px;
+	z-index:-1;
+}
+.img29{
+	
+	position:absolute;
+	top:10850px;
+	z-index:1;
+}
+.img30{
+	
+	position:absolute;
+	top:10860px;
+	z-index:2;
+}
 
+.svg10{
+	position: absolute;
+	margin-left: 0%;
+	margin-right: 0%;
+	padding: 0px;
+	top: 10960px;
+	z-index: 4;
+}
 @media screen and (max-width: 768px) {
 
 .parrafo{
